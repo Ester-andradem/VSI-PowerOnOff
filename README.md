@@ -12,10 +12,20 @@ Esta Action é baseada em Python 3.7 e pode ser usada tanto pra ligar quanto pra
 
 1. Clone o repositório usando o comando "git clone" para ter acesso a pasta da aplicação
 ````shel
-git clone https://github.com/Ester-andradem/VSI-Power-On-Off-Using-IBM-Cloud-Functions.git
+git clone https://github.com/Ester-andradem/VSI-PowerOnOff.git
 ````
 
 2. Entre na pasta onde esta sua aplicação
 ````shel
-cd 
+cd VSI-PowerOnOdff
 ````
+
+3.
+  - Para Linux: Crie o Python virtualenv usando o comando Docker
+````shel
+docker run --rm -v "$PWD:/tmp" openwhisk/python2action bash -c "cd /tmp && virtualenv virtualenv && source virtualenv/bin/activate && pip install -r requirements.txt"
+````
+
+- Para Windows: Crie o Python virtualenv usando o comando Docker
+docker run --rm -v "%cd%:/tmp" openwhisk/python2action bash -c "cd /tmp && virtualenv virtualenv && source virtualenv/bin/activate && pip install -r requirements.txt"
+
