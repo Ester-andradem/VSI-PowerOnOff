@@ -5,10 +5,17 @@ Requisitos:
 - Docker CE instalado
 - Python 3.7 instalado
 
+
 Os passos a seguir irão te ajduar a criar uma Action na IBM Cloud Functions. 
 Esta Action é baseada em Python 3.7 e pode ser usada tanto pra ligar quanto pra desligar sua VSI.
+
 
 1. Clone o repositório usando o comando "git clone" para ter acesso a pasta da aplicação
 ````shel
 git clone https://github.com/Ester-andradem/VSI-Power-On-Off-Using-IBM-Cloud-Functions.git
+````
+
+2. Entre na pasta onde esta sua aplicação
+````shel
+cd 
 ````
