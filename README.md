@@ -20,12 +20,12 @@ git clone https://github.com/Ester-andradem/VSI-PowerOnOff.git
 cd VSI-PowerOnOdff
 ````
 
-3.
-  - Para Linux: Crie o Python virtualenv usando o comando Docker
+3. - Para Linux: Crie o Python virtualenv usando o comando Docker
 ````shel
 docker run --rm -v "$PWD:/tmp" openwhisk/python2action bash -c "cd /tmp && virtualenv virtualenv && source virtualenv/bin/activate && pip install -r requirements.txt"
 ````
 
 - Para Windows: Crie o Python virtualenv usando o comando Docker
+````shel
 docker run --rm -v "%cd%:/tmp" openwhisk/python2action bash -c "cd /tmp && virtualenv virtualenv && source virtualenv/bin/activate && pip install -r requirements.txt"
-
+````
