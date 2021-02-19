@@ -2,7 +2,6 @@
 Este repositório explica como ligar e desligar sua VSI usando IBM Cloud Functions - Python 3.7
 
 Requisitos:
-- Docker CE instalado
 - Python 3.7 instalado
 
 
@@ -99,3 +98,8 @@ Exemplo:
 9. Clique em "Add"
 10. Sua Function foi criada com um Trigger e Action para ligar sua VSI
 11. Siga os mesmos passos para criar o Trigger de desligar a VSI
+
+
+###Referências:
+- https://github.com/itirohidaka/PowerOff-Functions
+- https://github.com/mariolarte19/Schedule-a-VSI-Power-On-and-Off-Using-IBM-Cloud-Functions
