@@ -100,6 +100,6 @@ Exemplo:
 11. Siga os mesmos passos para criar o Trigger de desligar a VSI
 
 
-###Referências:
+### Referências:
 - https://github.com/itirohidaka/PowerOff-Functions
 - https://github.com/mariolarte19/Schedule-a-VSI-Power-On-and-Off-Using-IBM-Cloud-Functions
