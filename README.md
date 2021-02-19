@@ -3,6 +3,7 @@ Este repositório explica como ligar e desligar sua VSI usando IBM Cloud Functio
 
 Requisitos:
 - Python 3.7 instalado
+- Conta na IBM Cloud
 - Cloud CLI
 - FN Plugin
 
