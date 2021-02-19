@@ -94,7 +94,7 @@ Exemplo:
 }
 ```
 
-7. Clique em criar 
+7. Clique em "Create"
 8. Na próxima tela, clique em "Add" e depois em "Select Existing" e associe a Action com o Trigger criado 
 9. Clique em "Add"
 10. Sua Function foi criada com um Trigger e Action para ligar sua VSI
