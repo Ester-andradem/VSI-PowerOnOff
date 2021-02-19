@@ -41,11 +41,11 @@ ibmcloud fn action create vsi-classic-power-on vsi-classic-power.zip --kind pyth
 ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind python:3.7
 ```
 
-5. Entre na IBM Cloud console com suas credenciais
+5. Entre na IBM Cloud Console com suas credenciais
 
-6. No menu da esquerda clique em Funcitions
+6. No menu da esquerda, clique em Functions
 
-7. Clique em Actions e certifique que as actions "vsi-classic-power-on" e "vsi-classic-power-off" aparecem na lista 
+7. Clique em Actions e certifique que as Actions "vsi-classic-power-on" e "vsi-classic-power-off" criadas aparecem na lista 
 
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
 ```shel
