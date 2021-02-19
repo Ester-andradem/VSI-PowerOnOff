@@ -24,7 +24,7 @@ cd VSI-PowerOnOdff
 
 3. Faça o login na IBM Cloud
 ````shel
-ibmcloud login --sso                   #Caso tenha IBM ID
+ibmcloud login --sso                   # Caso tenha IBM ID
 ibmcloud target -g Default             # Especifica a região
 ibmcloud target --cf                   # Especifica o espaço do Clound Foundry
 ````
