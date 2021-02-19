@@ -19,7 +19,7 @@ git clone https://github.com/Ester-andradem/VSI-PowerOnOff.git
 
 2. Entre na pasta onde esta sua aplicação
 ````shel
-cd VSI-PowerOnOdff
+cd VSI-PowerOnOff
 ````
 
 3. Faça o login na IBM Cloud
