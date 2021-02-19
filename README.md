@@ -71,5 +71,5 @@ apikey "73bc6c593e7ef22d38edb204c060055d09c5ad171715"
 user "2059386_nome@ibm.com"
 ```
 
-10. Selecione "Code" e aperte em Invoke
+10. Selecione "Code" e aperte em Invoke para testar
 
