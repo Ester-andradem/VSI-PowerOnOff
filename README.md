@@ -74,7 +74,7 @@ user "2059386_nome@ibm.com"
 10. Selecione "Code" e aperte em Invoke para testar
 
 
-### Criar um Fucntion Periodic Trigger
+## Criar um Function Periodic Trigger
 
 1. Clique em Trigger e depois em Create
 2. Clique em Trigger
