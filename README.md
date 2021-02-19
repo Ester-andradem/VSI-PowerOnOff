@@ -9,7 +9,7 @@ Requisitos:
 
 
 Os passos a seguir irão te ajduar a criar uma Action na IBM Cloud Functions. 
-Esta Action é baseada em Python 3.7 e pode ser usada tanto pra ligar quanto pra desligar sua VSI.
+Esta Action é baseada em Python 3.7 e pode ser usada tanto para ligar quanto para desligar sua VSI.
 
 
 1. Clone o repositório usando o comando "git clone" para ter acesso a pasta da aplicação
