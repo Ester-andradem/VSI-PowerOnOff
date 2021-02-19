@@ -40,12 +40,12 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 
 5. Entre na IBM Cloud Console com suas credenciais
 6. No menu da esquerda, clique em Functions
-7. Clique em Actions e certifique que as Actions "vsi-classic-power-on" e "vsi-classic-power-off" criadas aparecem na lista 
+7. Clique em "Actions" e certifique que as Actions "vsi-classic-power-on" e "vsi-classic-power-off" criadas aparecem na lista 
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
 ```shel
 vsi "nome da VSI"
 power "ON"
-apikey "apikey da insfraestrutura"
+apikey "softlayer_api_key"
 user "Usuario softlayer"
 ```
 
@@ -53,7 +53,7 @@ user "Usuario softlayer"
 ```shel
 vsi "nome da VSI"
 power "OFF"
-apikey "apikey da insfraestrutura"
+apikey "softlayer_api_key"
 user "Usuario softlayer"
 ```
 
