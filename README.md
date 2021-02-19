@@ -6,7 +6,7 @@ Requisitos:
 - Python 3.7 instalado
 
 
-\n\n
+
 
 Os passos a seguir irão te ajudar a criar uma Action na IBM Cloud Functions. 
 Esta Action é baseada em Python 3.7 e pode ser usada tanto para ligar quanto para desligar sua VSI.
@@ -42,11 +42,8 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 ```
 
 5. Entre na IBM Cloud Console com suas credenciais
-
 6. No menu da esquerda, clique em Functions
-
 7. Clique em Actions e certifique que as Actions "vsi-classic-power-on" e "vsi-classic-power-off" criadas aparecem na lista 
-
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
 ```shel
 vsi "nombre de VSI"
