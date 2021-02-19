@@ -29,7 +29,7 @@ ibmcloud target -g Default             # Especifica a região
 ibmcloud target --cf                   # Especifica o espaço do Clound Foundry
 ````
 
-4. Crie uma ação e push o zip para o IBM Functions
+4. Crie as duas Actions puxando o zip para o IBM Functions
 
 ### Ação para ligar VSI
 ```shel
