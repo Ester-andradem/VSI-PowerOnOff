@@ -39,7 +39,7 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 ```
 
 5. Entre na IBM Cloud Console com suas credenciais
-6. No menu da esquerda, clique em Functions
+6. No menu da esquerda clique em "Functions"
 7. Clique em "Actions" e certifique que as Actions "vsi-classic-power-on" e "vsi-classic-power-off" criadas aparecem na lista 
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
 ```shel
@@ -70,9 +70,9 @@ user "2059386_nome@ibm.com"
 
 ## Criar um Function Periodic Trigger
 
-1. Clique em Trigger e depois em Create
-2. Clique em Trigger
-3. Clique em Periodic
+1. Clique em "Trigger" e depois em "Create"
+2. Clique em "Trigger"
+3. Clique em "Periodic"
 4. Escreva o nome do Trigger
 5. Selecione o padrão que deseja executar as Actions (data e hora)
 6. Em "JSON Payload, digite:
@@ -93,8 +93,7 @@ Exemplo:
 
 7. Clique em "Create"
 8. Na próxima tela, clique em "Add" e depois em "Select Existing" e associe a Action com o Trigger criado 
-9. Clique em "Add"
-10. Sua Function foi criada com um Trigger e Action para ligar sua VSI
+9. Clique em "Add". Sua Function foi criada com um Trigger e Action para ligar sua VSI!
 11. Siga os mesmos passos para criar o Trigger de desligar a VSI
 
 
