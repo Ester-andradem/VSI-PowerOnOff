@@ -1,5 +1,5 @@
-# VSI Power On and Off with Cloud Functions
-Este repositório explica como ligar e desligar sua VSI usando IBM Cloud Functions baseado em Python 3.7
+# VSI Power On and Off with Cloud Functions - Python 3.7
+Este repositório explica como ligar e desligar sua VSI usando IBM Cloud Functions
 
 Requisitos:
 - Python 3.7 instalado
