@@ -67,7 +67,7 @@ Exemplo:
 vsi "testeshutdown"
 power "ON"
 apikey "apikey"
-user "2059386_nome@ibm.com"
+user "2059XXX_nome@ibm.com"
 ```
 
 10. Selecione "Code" e aperte em Invoke para testar
