@@ -80,8 +80,8 @@ user "2059386_nome@ibm.com"
 2. Clique em Trigger
 3. Clique em Periodic
 4. Escreva o nome do Trigger
-5. Selecione o padrão que deseja executar as Actions (data, e hora)
-6. Em Json Payload, digite:
+5. Selecione o padrão que deseja executar as Actions (data e hora)
+6. Em "JSON Payload, digite:
 ```shel
 {
 "vsi": "<name_of_the_vsi>",
