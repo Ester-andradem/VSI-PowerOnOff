@@ -3,7 +3,7 @@ Este repositório explica como ligar e desligar sua VSI usando IBM Cloud Functio
 
 Requisitos:
 - Python 3.7 instalado
-
+- Cloud CLI
 
 Os passos a seguir irão te ajudar a criar uma Action na IBM Cloud Functions, 
 esta Action é baseada em Python 3.7 e pode ser usada tanto para ligar quanto para desligar sua VSI.
