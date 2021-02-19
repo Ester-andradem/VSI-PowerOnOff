@@ -64,7 +64,7 @@ Exemplo:
 ```shel
 vsi "testeshutdown"
 power "ON"
-apikey "73bc6c593e7ef22d38edb204c060055d09c5ad171715"
+apikey "apikey"
 user "2059386_nome@ibm.com"
 ```
 
