@@ -50,8 +50,9 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 
 <p><strong>Obs: O nome da VSI não requer o domínio!</strong></p>
 
-<p>*Para achar o <strong>user</strong> que será usado como um dos parâmetros de nossa Action entre na IBM Cloud Console, no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>*.</p>
+<p>Para achar seu <strong>user</strong> que será usado como um dos parâmetros de nossa Action entre na IBM Cloud Console (https://cloud.ibm.com), no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>.</p>
 
+<p>Exemplo:</p>
 ```shel
 vsi "nome da VSI"
 power "ON"
@@ -79,7 +80,7 @@ user "2059XXX_nome@ibm.com"
 10. Selecione "Code" e aperte em Invoke para testar
 
 
-## Criar um Function Periodic Trigger
+## Criar um Function Periodic Trigger (Opcional)
 
 1. Clique em "Trigger" e depois em "Create"
 
