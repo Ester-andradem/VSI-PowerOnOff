@@ -47,10 +47,6 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
 
-<p><strong>Obs: O nome da VSI não requer o domínio!</strong></p>
-
-<p>Para achar seu <strong>user</strong> que será usado como um dos parâmetros de nossa Action entre na IBM Cloud Console (https://cloud.ibm.com), no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>.</p>
-
 <p>Parâmetros Action <strong>ON</strong>:</p>
 
 ```shel
@@ -59,6 +55,12 @@ power "ON"
 apikey "softlayer_api_key"
 user "Usuario softlayer"
 ```
+
+<p><strong>Obs: O nome da VSI não requer o domínio!</strong></p>
+
+<p>Para achar seu <strong>user</strong> que será usado como um dos parâmetros da Action entre na IBM Cloud Console (https://cloud.ibm.com), no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>.</p>
+
+<p> A <strong>apikey</strong> encontra-se na mesma página que o "User name". Localize "API Keys" (logo abaixo de "VPN password") e clique nos três pontinhos do lado direito de "Classic Infraestrusture API Key". Logo em seguida clique em "Details" e copie sua <strong>apikey</strong>.
 
 9. Salve a Action On. Clique na Action "vsi-classic-power-off" e coloque os parâmetros:
 
