@@ -3,7 +3,7 @@ Este repositório explica como ligar e desligar sua VSI usando IBM Cloud Functio
 
 Requisitos:
 - Conta na IBM Cloud
-- <a href="https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli">Cloud CLI</a>
+- <a href="https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli">IBM Cloud CLI instalado</a>
 - <a href="https://cloud.ibm.com/docs/cli?topic=cloud-cli-plug-ins">Functions Plugin instalado</a>
 
 Os passos a seguir irão te ajudar a criar uma Action na IBM Cloud Functions, 
