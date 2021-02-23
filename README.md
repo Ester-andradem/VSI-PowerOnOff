@@ -56,11 +56,11 @@ apikey "softlayer_api_key"
 user "Usuario softlayer"
 ```
 
-<p><strong>Obs: O nome da VSI não requer o domínio!</strong><br></p>
+> <p><strong>Obs: O nome da VSI não requer o domínio!</strong></p>
 
-<p>Para achar seu <strong>user</strong> que será usado como um dos parâmetros da Action entre na IBM Cloud Console (https://cloud.ibm.com), no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>.</br></p>  
+> <p>Para achar seu <strong>user</strong> que será usado como um dos parâmetros da Action entre na IBM Cloud Console (https://cloud.ibm.com), no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>.</p> 
 
-<p> A <strong>apikey</strong> encontra-se na mesma página que o "User name". Localize "API Keys" (logo abaixo de "VPN password") e clique nos três pontinhos do lado direito de "Classic Infraestrusture API Key". Logo em seguida clique em "Details" e copie sua <strong>apikey</strong>.</br></p>  
+> <p>A <strong>apikey</strong> encontra-se na mesma página que o "User name". Localize "API Keys" (logo abaixo de "VPN password") e clique nos três pontinhos do lado direito de "Classic Infraestrusture API Key". Logo em seguida clique em "Details" e copie sua <strong>apikey</strong>.</p> 
 
   
 	  
