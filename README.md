@@ -47,6 +47,10 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 7. Clique em "Actions" e certifique que as Actions "vsi-classic-power-on" e "vsi-classic-power-off" criadas aparecem na lista 
 
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
+*Obs: O nome da VSI não requer o domínio!*
+
+Para achar o User que será usado como um dos parâmetros de nossa Action entre na IBM Cloud Console, na barra de Menu clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro *User*.
+
 ```shel
 vsi "nome da VSI"
 power "ON"
@@ -55,6 +59,7 @@ user "Usuario softlayer"
 ```
 
 9. Salve a Action On. Clique na Action "vsi-classic-power-off" e coloque os parâmetros:
+
 ```shel
 vsi "nome da VSI"
 power "OFF"
