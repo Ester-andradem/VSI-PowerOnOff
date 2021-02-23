@@ -62,6 +62,7 @@ user "Usuario softlayer"
 
 <p> A <strong>apikey</strong> encontra-se na mesma página que o "User name". Localize "API Keys" (logo abaixo de "VPN password") e clique nos três pontinhos do lado direito de "Classic Infraestrusture API Key". Logo em seguida clique em "Details" e copie sua <strong>apikey</strong>.
 
+
 9. Salve a Action On. Clique na Action "vsi-classic-power-off" e coloque os parâmetros:
 
 <p>Parâmetros Action <strong>OFF</strong>:</p>
