@@ -27,14 +27,14 @@ ibmcloud target -g Default             # Especifica a região
 ibmcloud target --cf                   # Especifica o espaço do Clound Foundry
 ````
 
-4. Crie as duas Actions puxando o zip para o IBM Functions
+4. Crie as duas Actions puxando o zip para o IBM Functions:
 
-### Ação para ligar VSI
+### Action para ligar VSI
 ```shel
 ibmcloud fn action create vsi-classic-power-on vsi-classic-power.zip --kind python:3.7
 ```
 
-### Ação para desligar VSI
+### Action para desligar VSI
 ```shel
 ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind python:3.7
 ```
