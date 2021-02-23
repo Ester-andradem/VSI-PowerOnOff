@@ -47,7 +47,7 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 
 8. Clique na Action "vsi-classic-power-on" e coloque os parâmetros:
 
-<p>Parâmetros Action <strong>ON</strong>:</p>
+<p><strong>Parâmetros Action ON</strong>:</p>
 
 ```shel
 vsi "nome da VSI"
@@ -66,7 +66,7 @@ user "Usuario softlayer"
 	  
 9. Salve a Action On. Clique na Action "vsi-classic-power-off" e coloque os parâmetros:
 
-<p>Parâmetros Action <strong>OFF</strong>:</p>
+<p><strong>Parâmetros Action OFF</strong>:</p>
 
 ```shel
 vsi "nome da VSI"
