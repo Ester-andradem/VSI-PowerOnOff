@@ -50,7 +50,7 @@ ibmcloud fn action create vsi-classic-power-off vsi-classic-power.zip --kind pyt
 
 <p><strong>Obs: O nome da VSI não requer o domínio!</strong></p>
 
-*Para achar o User que será usado como um dos parâmetros de nossa Action entre na IBM Cloud Console, na barra de Menu clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro *User**.
+<p>*Para achar o <strong>user</strong> que será usado como um dos parâmetros de nossa Action entre na IBM Cloud Console, no Menu (do lado direito) clique em "Manage", logo em seguida clique em "Access (IAM)". No menu da esquerda selecione a opção "Users" e clique em cima do seu nome, na opção "VPN password" copie seu "User name", este será o parâmetro <strong>user</strong>*.</p>
 
 ```shel
 vsi "nome da VSI"
