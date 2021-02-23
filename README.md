@@ -5,7 +5,7 @@ Requisitos:
 - Python 3.7 instalado
 - Conta na IBM Cloud
 - Cloud CLI
-- FN Plugin
+- <a href="https://cloud.ibm.com/docs/cli?topic=cloud-cli-plug-ins">Functions Plugin instalado</a>
 
 Os passos a seguir irão te ajudar a criar uma Action na IBM Cloud Functions, 
 esta Action é baseada em Python 3.7 e pode ser usada tanto para ligar quanto para desligar sua VSI.
